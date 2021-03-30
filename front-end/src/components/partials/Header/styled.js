@@ -55,7 +55,11 @@ nav {
         margin-left: 20px;
         margin-right: 20px;
 
-        a {
+        a, button {
+            border: 0;
+            background: none;
+            outline: 0;
+            cursor: pointer;
             color: #000;
             font-size: 14px;
             text-decoration: none;
