@@ -35,7 +35,7 @@ const Header = () => {
                                 </li>
 
                                 <li>
-                                    <Link to="" className="button">Poste um anúncio</Link>
+                                    <Link to="/post-an-ad" className="button">Poste um anúncio</Link>
                                 </li>
                             </>
                         }
