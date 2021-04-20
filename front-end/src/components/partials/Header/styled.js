@@ -82,5 +82,28 @@ nav {
     }
 }
 
+@media (max-width: 600px) {
 
+    & {
+        height: auto;
+    }
+    
+    .container {
+    flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 20px 0px; 
+    }
+
+    nav ul {
+        flex-direction: column; 
+        height: auto;
+    }
+
+    nav li {
+        margin: 10px 20px;
+    }
+}
 `;
